@@ -1,0 +1,75 @@
+/* Normalise */
+body, html {
+  margin: 0;
+  padding: 0; }
+
+* { box-sizing: border-box; }
+
+/* Colour scheme */
+
+/*
+From https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1305281
+  white: #FFFFFF;
+  black: #000000;
+
+  light grey: #F2F2F2;
+  mid grey: #8E8E8E;
+  dark grey: #4D4D4D;
+
+  dark teal: #3FCEA4;
+  mid teal: #44DEB0;
+  light teal: #7AE8C7;
+  lighter teal: #BEF3E3;
+
+  yellow: #FFF066;
+*/
+
+/* Typography */
+body {
+  font-family: 'Helvetica, Arial, sans-serif';
+  color: #4D4D4D;
+}
+
+h1, h2, h3, h4 { color: #3FCEA4; }
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1em; }
+
+/* Section */
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Product cards */
+.cards {
+  display: flex;
+  flex-flow: column;
+}
+
+.cards .card-wrapper {
+  padding-bottom: 1em;
+  width: 100%;
+}
+
+@media all and (min-width: 576px) {
+  .cards {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .cards .card-wrapper {
+    padding: 1em;
+    width: 33%;
+  }
+}
+
+/* Footer */
+.footer {
+  background: #3FCEA4;
+  color: white;
+  padding: 3em 6em;
+  text-align: center;
+}
