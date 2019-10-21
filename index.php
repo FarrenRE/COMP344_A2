@@ -58,7 +58,7 @@
                 </tbody>
               </table>
               <div class="card-button">
-                <a class="button button--cta" href="#">Compare me!</a>
+                <a class="btn btn-primary" href="#">Compare me!</a>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@
                 </tbody>
               </table>
               <div class="card-button">
-                <a class="button button--cta" href="#">Compare me!</a>
+                <a class="btn btn-primary" href="#">Compare me!</a>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@
                 </tbody>
               </table>
               <div class="card-button">
-                <a class="button button--cta" href="#">Compare me!</a>
+                <a class="btn btn-primary" href="#">Compare me!</a>
               </div>
             </div>
           </div>
