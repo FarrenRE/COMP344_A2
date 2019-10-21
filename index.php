@@ -27,7 +27,7 @@
 
         <div class="card-wrapper">
           <div class="card">
-            <img class="card-img-top" src="https://via.placeholder.com/350x150" alt="product 1" />
+            <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="product 1" />
             <div class="card-body">
               <h3 class="card-title">Cup Brothers</h3>
               <table class="table">
@@ -61,7 +61,7 @@
 
         <div class="card-wrapper">
           <div class="card">
-            <img class="card-img-top" src="https://via.placeholder.com/350x150" alt="product 1" />
+            <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="product 1" />
             <div class="card-body">
               <h3 class="card-title">Plumber Joe</h3>
               <table class="table">
@@ -95,7 +95,7 @@
 
         <div class="card-wrapper">
           <div class="card">
-            <img class="card-img-top" src="https://via.placeholder.com/350x150" alt="product 1" />
+            <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="product 1" />
             <div class="card-body">
               <h3 class="card-title">Dizzy Hedgehog</h3>
               <table class="table">
