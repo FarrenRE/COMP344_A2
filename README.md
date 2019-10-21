@@ -3,7 +3,11 @@
 ## Contributors
 
 Simon Li
+
 Mohammad Anim Rahman
+
 Seok Vin Lee
+
 Daniyal Ranjbar
+
 Farren Esman
