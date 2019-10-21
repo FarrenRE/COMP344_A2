@@ -5,6 +5,12 @@ body, html {
 
 * { box-sizing: border-box; }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 /* Colour scheme */
 
 /*
@@ -16,7 +22,7 @@ From https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1305281
   mid grey: #8E8E8E;
   dark grey: #4D4D4D;
 
-  dark teal: #3FCEA4;
+  dark teal: #;
   mid teal: #44DEB0;
   light teal: #7AE8C7;
   lighter teal: #BEF3E3;
@@ -26,21 +32,54 @@ From https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1305281
 
 /* Typography */
 body {
-  font-family: 'Helvetica, Arial, sans-serif';
   color: #4D4D4D;
 }
 
-h1, h2, h3, h4 { color: #3FCEA4; }
+h1, h2, h3, h4 { color: #4D4D4D; margin-bottom: 0.75em; }
 
-h1 { font-size: 2em; }
-h2 { font-size: 1.6em; }
-h3 { font-size: 1.3em; }
+h1 { font-size: 2.6em; font-weight:bold; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.4em; }
 h4 { font-size: 1em; }
 
-/* Section */
-.section {
+/* Nav */
+@media all and (min-width: 576px) {
+  .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-nav li {
+    margin: 0 0.75em;
+  }
+}
+
+
+/* Layout */
+.container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* Buttons */
+.button {
+  padding: 0.5em;
+  background: #3FCEA4;
+  border: 1px solid #BEF3E3;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+.button:hover {
+  background: #FFF066;
+  border: 1px solid #8E8E8E;
+  color: #4D4D4D;
+  text-decoration: none;
+}
+
+.button--cta {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0.5em 1em;
 }
 
 /* Product cards */
@@ -52,6 +91,10 @@ h4 { font-size: 1em; }
 .cards .card-wrapper {
   padding-bottom: 1em;
   width: 100%;
+}
+
+.card-button {
+  text-align: center;
 }
 
 @media all and (min-width: 576px) {
