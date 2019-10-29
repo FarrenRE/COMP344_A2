@@ -11,6 +11,12 @@ nav ul {
   list-style-type: none;
 }
 
+.nav-item i {
+  font-size:28px;
+  color: whitesmoke;
+  margin-top: 5px;
+}
+
 /* Colour scheme */
 
 /*
