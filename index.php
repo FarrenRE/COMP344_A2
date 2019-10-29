@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <i class="fa fa-home" style="font-size:28px;color: whitesmoke; margin-top: 5px;"></i>
+              <i class="fa fa-home"></i>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">Home
@@ -27,32 +27,32 @@
               </a>
             </li>
             <li class="nav-item">
-              <i class="fa fa-user" style="font-size:28px;color: whitesmoke; margin-top: 5px;"></i>
+              <i class="fa fa-user"></i>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Profile
               </a>
             </li>
             <li class="nav-item">
-              <i class="fa fa-desktop" style="font-size:28px;color: whitesmoke; margin-top: 5px;"></i>
+              <i class="fa fa-desktop"></i>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <i class="fa fa-cogs" style="font-size:28px;color: whitesmoke; margin-top: 5px;"></i>
+              <i class="fa fa-cogs"></i>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Settings</a>
             </li>
             <li class="nav-item">
-              <i class="fa fa-shopping-cart" style="font-size:28px;color: whitesmoke; margin-top: 5px;"></i>
+              <i class="fa fa-shopping-cart"></i>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Cart</a>
             </li>
             <li class="nav-item">
-              <i class="fa fa-sign-out" style="font-size:28px;color: whitesmoke; margin-top: 5px;"></i>
+              <i class="fa fa-sign-out"></i>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Logout</a>
