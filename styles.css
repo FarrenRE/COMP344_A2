@@ -33,6 +33,7 @@ From https://ilearn.mq.edu.au/mod/forum/discuss.php?d=1305281
 /* Typography */
 body {
   color: #4D4D4D;
+  padding-top: 56px;
 }
 
 h1, h2, h3, h4 { color: #4D4D4D; margin-bottom: 0.75em; }
@@ -76,6 +77,100 @@ h4 { font-size: 1em; }
   font-weight: bold;
   padding: 0.5em 1em;
 }
+
+
+
+/* Comparison table */
+.compare-table{
+  display: flex;
+  flex-direction: column; /* turn children ul elements into stacked rows */
+  margin-bottom:5%;
+  margin-top:5%;
+  margin-left:10%;
+  margin-right:10%;
+  width: 80%;
+}
+
+.compare-table .compare-table__row{
+  list-style: none;
+  display: flex; /* turn children li elements into flex children */
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.compare-table .compare-table__row li{
+  background: white;
+  flex: 1;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+/* Key Column (First Li in every row) */
+.compare-table .compare-table__row .key{
+  background: #44DEB0;
+  color: white;
+  border: none;
+  border-radius:12px;
+  width: 200px;
+  border-bottom: none;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.30);
+}
+
+/* First Row */
+.compare-table .compare-table__row:first-of-type li{
+  text-align: center;
+
+}
+
+/* Last Row */
+.compare-table .compare-table__row:last-of-type li{
+  text-align: center;
+  border-bottom: none;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.30);
+  border-radius:10px;
+  background: #44DEB0;
+  color: white;
+}
+
+/* First + last cell in key column */
+.compare-table .compare-table__row:first-of-type .key,
+.compare-table .compare-table__row:last-of-type .key{
+    background: transparent;
+    box-shadow: none;
+}
+
+.compare-table img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 150px;
+}
+
+
+@media screen and (max-width:650px) {
+
+  .compare-table .compare-table__row{
+      flex-direction: column;
+  }
+  
+  .compare-table .compare-table__row li{
+      margin-right: 0;
+      width: auto;
+      flex: auto;
+  }
+  
+  /* First + last cell in key column */
+  .compare-table .compare-table__row:first-of-type li.key,
+  .compare-table .compare-table__row:last-of-type li.key{
+      display: none;
+  }
+  
+  .compare-table .compare-table__row li.key{
+      width: auto;
+  }
+}
+
+
 
 /* Product cards */
 .cards {
