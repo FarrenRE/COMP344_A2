@@ -60,6 +60,9 @@ function getData($query)
   $c->close();
 }
 
+/**
+ * Create database from declared defined values
+ */
 function createDB()
 {
   $database = DB_DATABASE;
